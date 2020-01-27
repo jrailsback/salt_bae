@@ -1,5 +1,7 @@
 # Custom exceptions
 private_local*
+.terraform*
+*.tfstate*
 
 # Logs
 logs

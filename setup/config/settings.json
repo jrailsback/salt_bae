@@ -1,0 +1,5 @@
+{
+    "aws": {
+        "default_region": "<YOUR_DEFAULT_REGION>"
+    }
+}

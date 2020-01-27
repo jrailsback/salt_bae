@@ -7,10 +7,10 @@ Install Terraform locally
 brew install terraform
 ```
 
-Replace AWS credential placeholders with access key and secret key bearing sufficient permissions in `setup/config/credentials.json`
+Replace AWS credential placeholders in `setup/config/credentials.json` with access key and secret key bearing sufficient permissions to launch an EC2 instance
 ```
 "aws": {
-    "access_key": "<YOUR_ACCESS_KEY>",
-    "secret_key": "<YOUR_SECRET_KEY>"
+    "access_key_id": "<YOUR_ACCESS_KEY_ID>",
+    "secret_access_key": "<YOUR_SECRET_ACCESS_KEY>"
 }
 ```
