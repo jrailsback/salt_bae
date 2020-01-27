@@ -14,3 +14,9 @@ Replace AWS credential placeholders in `setup/config/credentials.json` with acce
     "secret_access_key": "<YOUR_SECRET_ACCESS_KEY>"
 }
 ```
+Replace [AWS region](https://docs.aws.amazon.com/general/latest/gr/rande.html) placeholder in `setup/config/settings.json` with your preferred region
+```
+"aws": {
+    "default_region": "<YOUR_DEFAULT_REGION>"
+}
+```
